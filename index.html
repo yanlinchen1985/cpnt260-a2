@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Roboto+Slab:wght@300&display=swap');
+    
+    body {
+        display: flex;
+        margin: 0;
+        height: 100vh;
+    }
+
+    .wrapper{
+        display:flex;
+        flex-direction: column;
+        margin: auto;
+        min-width: 20ch;
+        max-width: 40ch;
+        box-shadow: 5px 5px 5px rgb(173, 173, 173);
+        background-color: rgb(238, 238, 238)
+    }
+
+    .header {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+
+        min-width: 20ch;
+        max-width: 40ch;
+        height: 140px;
+
+        background-image: url("image/river.jpg");
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-position: center;
+    }
+    
+    .header img {
+        margin: 20ch 10ch 3ch 10ch;
+        width: 50%;
+        border-radius: 50%;
+        border: 7px solid rgb(238, 238, 238);
+    }
+
+    .cardtext {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        min-width: 20ch;
+        max-width: 40ch;
+        margin-top: 90px;
+    }
+    
+    .cardtext h1 {
+        font-size: 20px;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    .cardtext p {
+        font-size: 16px;
+        font-family: 'Barlow', sans-serif;
+        padding-left: 2ch;
+        padding-right: 2ch;
+        line-height: 3ch;
+    }
+         
+    footer {
+        border-top: 1px solid grey;
+    }     
+  
+    ul, li, a {
+        display: flex;
+        justify-content: space-evenly;   
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 45px;
+        color: rgb(9, 31, 128); 
+        margin: 5px 0 5px 0;
+    }
+    
+    ul {
+        margin-left:-40px;
+    }
+
+    </style>
+</head>
+<body> 
+    <div class="wrapper">
+
+        <div class="header">
+            <img src="image/jane-doe.jpg" alt="jane-doe">
+        </div>
+
+        <div class="cardtext">
+            <h1>Jane doe</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus possimus minus itaque fugit harum, vero porro dicta ab quas adipisci ipsa atque nobis neque illo! Sunt labore consequatur architecto qui mollitia voluptatum dolorem temporibus repudiandae!</p>
+        </div> 
+
+        <footer>
+            <ul>
+                <li><a href="https://github.com/sait-wbdv/assessments/blob/master/cpnt260/assignment-2/screencap.png"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://github.com/sait-wbdv/assessments/blob/master/cpnt260/assignment-2/screencap.png"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://github.com/sait-wbdv/assessments/blob/master/cpnt260/assignment-2/screencap.png"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://github.com/sait-wbdv/assessments/blob/master/cpnt260/assignment-2/screencap.png"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </footer>    
+    </div>  
+</body>
+</html>
